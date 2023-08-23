@@ -1,0 +1,11 @@
+{
+    "titulo": "inserir titulo",
+    "imagem": "link da imagem",
+    "tecnologias": ["tec1", "tec2", "tec3"],
+    "descrição": "inserir descricao",
+    "categoria": "inserir categoria",
+    "data": "0000-00-00",
+    "concluido": "false",
+    "link": "link do site / repositorio"
+}
+
