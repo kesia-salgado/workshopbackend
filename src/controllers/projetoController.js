@@ -2,7 +2,7 @@ import projetos from "../models/projetos.js";
 
 class ProjetoController {
 
-    static getAllprojetos = (req, res) => {
+    static getAllProjetos = (req, res) => {
         projetos.find((err, projetos) => {
             res.status(200).json(projetos);
         });
@@ -36,7 +36,7 @@ class ProjetoController {
         });
     }
 
-    static updateProjetos = (req, res) => {
+    static upDateProjetos = (req, res) => {
         const id = req.params.id;
 
         projetos.findByIdAndUpdate(id, {$set: req.body}, (err) => {
