@@ -6,7 +6,7 @@ const router = express.Router();
 router
   .get("/", ProjetoController.getAllProjetos)
   .post("/", ProjetoController.createProjetos)
-  .put("/:", ProjetoController.upDateProjetos)
+  .put("/:", ProjetoController.updateProjetos)
   .get("/:", ProjetoController.getByIdProjetos)
   .delete("/:", ProjetoController.deleteProjetos)
 

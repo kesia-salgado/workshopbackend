@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardProjetos = document.getElementById("div-projetos");
   
   async function fetchProjetos() {
-    // const response = await fetch("http://localhost:2727/projetos");//
-    const response = await fetch("../models/projeto.json");
+    const response = await fetch("http://localhost:2727/projetos");//const que retorna todos os projetos de back em front//
+    // const response = await fetch("../models/projeto.json"); para funcionar a integração back com o front só pode ter um caminho// 
     const projetos = await response.json();
     return projetos;
   }
